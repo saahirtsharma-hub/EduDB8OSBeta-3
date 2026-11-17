@@ -1,0 +1,16 @@
+sway
+xwayland
+foot
+firefox-esr
+curl
+libgtk-3-bin
+libpam-systemd
+network-manager
+python3
+sudo
+xdg-utils
+fonts-noto
+fonts-noto-color-emoji
+firmware-linux
+firmware-iwlwifi
+firmware-realtek

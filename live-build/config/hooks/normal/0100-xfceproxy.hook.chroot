@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+useradd --system --no-create-home --shell /usr/sbin/nologin xfceproxy || true
+systemctl enable xfceproxy.service
+install -D -m 644 /usr/share/xshell/skel/profile /etc/skel/.profile
+install -D -m 644 /usr/share/xshell/skel/sway-config /etc/skel/.config/sway/config
