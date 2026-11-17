@@ -4,7 +4,7 @@ lb config noauto \
   --distribution trixie \
   --architectures amd64 \
   --binary-images iso-hybrid \
-  --bootloaders "grub-efi,syslinux" \
+  --bootloaders "grub-pc,grub-efi" \
   --debian-installer none \
   --archive-areas "main contrib non-free-firmware" \
   --iso-application "XFCE Proxy OS" \
